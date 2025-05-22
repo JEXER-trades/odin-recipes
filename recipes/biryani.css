@@ -1,0 +1,82 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9f3;
+  color: #333;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #b14e19;
+}
+
+/* Image */
+img {
+  display: block;
+  margin: 0 auto 24px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Section headings */
+h2 {
+  font-size: 24px;
+  margin-top: 32px;
+  color: #b14e19;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 16px;
+  text-align: justify;
+}
+
+/* Ingredients list */
+ul {
+  background-color: #fff;
+  padding: 16px;
+  border-left: 4px solid #ffa500;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  list-style-type: square;
+}
+
+/* Steps list */
+ol {
+  background-color: #fff;
+  padding: 16px;
+  border-left: 4px solid #5cb85c;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Responsive tweak */
+@media (max-width: 600px) {
+  body {
+    padding: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
